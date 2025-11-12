@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Node
+node_modules/
+dist/
+.build/
+.cache/
+
+# Envs
+.env
+apps/**/.env
+
+# Docker
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
