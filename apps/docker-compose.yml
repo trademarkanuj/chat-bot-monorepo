@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  backend:
+    # image: anujsharma211/chat-boat-backend:latest
+    build: ./backend
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./backend/.env
+  frontend:
+    # image: anujsharma211/chat-boat:latest
+    build: ./frontend
+    ports:
+      - "5173:5173"
